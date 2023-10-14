@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background:#020230;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    place-items: center;
+    justify-content: center;
+}
+.x {
+    color: rgb(255, 70, 37);
+}
+
+.o {
+    color: rgb(44, 135, 255);
+}
